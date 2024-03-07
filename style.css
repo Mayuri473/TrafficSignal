@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.road{
+    background-image: url("trafficpic.jpg");
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    height: 600px;
+    width: 208px;
+    border: 5px solid black;
+    background-color: rgb(26, 26, 26);
+    padding-top: 10px;
+    border-top-left-radius: 104px;
+    border-top-right-radius: 104px;
+    /* box-shadow: 0 0 50px black; */
+}
+
+.circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+    border: 5px solid black;
+    border-radius: 85px;
+    margin: 20px;
+}
+
+#circle-1 {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 15px 5px rgb(255, 0, 0);
+    opacity: 0.1;
+}
+
+#circle-2 {
+    background-color: rgb(255, 213, 0);
+    box-shadow: 0 0 15px 5px rgb(255, 213, 0);
+    opacity: 0.1;
+}
+
+#circle-3 {
+    background-color: rgb(0, 128, 0);
+    box-shadow: 0 0 15px 5px rgb(0, 128, 0);
+    opacity: 0.1;
+}
+
+p {
+    margin: auto;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 0 0 20px white;
+}
